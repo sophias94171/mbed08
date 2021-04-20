@@ -18,7 +18,7 @@ struct Config {
 
   // The number of expected consecutive inferences for each gesture type.
 
-  const int consecutiveInferenceThresholds[label_num] = {8,18,6};
+  const int consecutiveInferenceThresholds[label_num] = {8,18,30};
 
 
   const char* output_message[label_num] = {
